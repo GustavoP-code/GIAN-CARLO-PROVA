@@ -46,3 +46,50 @@ th {
 td {
     background-color: bisque;
 }
+.produtos {
+  background-color: #007BFF;
+
+
+ }
+ .lista-produtos {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    
+ }
+
+ .lista-produtos > div{
+     border: solid 1px black;
+     width: 150px;
+ }
+ 
+ .lista-produtos > h5{
+     background-color: lightblue;
+ }
+.lista-produtos div img{
+ width: 150px;
+}
+ nav{
+ display: flex;
+ justify-content:space-evenly;
+}  
+ a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+ transition: 0.3s ease;
+ }
+
+  a:houver { 
+     color: blue;
+     text-decoration: underline;
+  }
+  section{
+  background-color: gray;
+
+  }
+
+  .cadastro {
+    display: flex;
+    align-items: center;
+  }
