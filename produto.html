@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista div-produtos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="/index.html">inicial</a>
+          <a href="/produtos.html">Produtos</a>
+          
+         
+        </nav>
+    </header>
+    <style>
+
+        h1 {
+         background-color: #007BFF;
+
+
+        }
+        .lista-produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+           
+        }
+
+        .lista-produtos > div{
+            border: solid 1px black;
+            width: 150px;
+        }
+        
+        .lista-produtos > h5{
+            background-color: lightblue;
+        }
+     .lista-produtos div img{
+        width: 150px;
+     }
+        nav{
+        display: flex;
+        justify-content:space-evenly;
+    }  
+        a {
+           text-decoration: none;
+           color: blueviolet;
+           font-weight: bold;
+        transition: 0.3s ease;
+        }
+
+         a:houver { 
+            color: blue;
+            text-decoration: underline;
+         }
+         section{
+         background-color: gray;
+
+         }
+     </style>
+     <main>
+        <h1> Produtos: </h1>
+    </main>
+    <section class="lista-produtos">
+        <div>
+            <img src="fila racer t2.webp" alt="Tênis Fila Racer T2">
+            <h4>Tênis Fila Racer T2</h4>
+            <p>Tênis perfeito para corridas!</p>
+            <h5>R$700.00</h5>
+        </div>
+        <div>
+            <img src="coturno adventure.jpg" alt="Coturno Adventure">
+            <h4>Coturno Adventure</h4>
+            <p>Ótimo para trabalho ou trilhas</p>
+            <h5>R$155.00</h5>
+        </div>
+        <div>
+            <img src="Chuteira_Predator.avif" alt="Chuteira Predator">
+            <h4>Adidas Chuteira Predator</h4>
+            <p>Entre em campo com estilo!</p>
+            <h5>R$600.00</h5>
+        </div>
+        <div>
+            <img src="air force one.avif" alt="Air Force one">
+            <h4>Nike Air Force 1</h4>
+            <p>O tênis original do basquete </p>
+            <h5>R$760.00</h5>
+        </div>
+    </section>
+
+</body>
+</html>
