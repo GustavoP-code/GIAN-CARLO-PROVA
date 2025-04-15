@@ -1,0 +1,48 @@
+ body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    background-color: #75759b; 
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .empresa {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .imagemloja {
+    height: 300px;
+    width: 50%;
+  }
+  .loja{
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: bisque;
+}
